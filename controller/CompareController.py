@@ -23,4 +23,4 @@ class CompareController(Resource):
 
 
 main_service = MainService()
-api.add_resource(CompareController, '/compare/', resource_class_kwargs={'service': main_service})
+api.add_resource(CompareController, '/compare', resource_class_kwargs={'service': main_service})
